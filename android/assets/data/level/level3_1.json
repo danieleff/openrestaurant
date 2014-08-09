@@ -1,0 +1,17 @@
+{
+id:"3_1",
+width: 16,
+height:10,
+star1: 10,
+star2: 15,
+star3: 40,
+tables: "a",
+plates: 15,
+tileset: "white",
+
+groups:[
+		[
+			{t: 1, name: "2guygirl"},
+		]
+	]
+}

@@ -1,0 +1,37 @@
+{
+	guy: [
+		{p: 1, file: "modernguy02"},
+		{p: 1, file: "tremel"},
+		{p: 1, file: "roshan"},
+		{p: 1, file: "darion"},
+	],
+	girl: [
+		{p: 1, file: "moderngirl02"},
+		{p: 1, file: "moderngirl03"},
+		{p: 1, file: "sithjester1"},
+		{p: 1, file: "steampunkf1"},
+	],
+	lina: [
+		{p: 1, file: "linainverse"},
+	],
+	zelgadis: [
+		{p: 1, file: "zelgadisgreywords"},
+	],
+	
+	sailormoon: [
+		{p: 1, file: "sailormoon"},
+	],
+	sailormercury: [
+		{p: 1, file: "sailormercury"},
+	],
+	
+	officemangray: [
+		{p: 1, file: "officeman1"},
+		{p: 1, file: "officeman2"},
+	],
+	officewomangray: [
+		{p: 1, file: "officewoman1"},
+		{p: 1, file: "officewoman2"},
+	],
+	
+}

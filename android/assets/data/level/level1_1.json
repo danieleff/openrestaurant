@@ -1,0 +1,17 @@
+{
+id:"1_1",
+width: 13,
+height:7,
+star1: 10,
+star2: 20,
+star3: 28,
+tables: "a",
+plates: 5,
+tileset: "brown", 
+t: 3,
+
+groups:[
+    [
+        {name: "guy", t:1},
+    ]
+}

@@ -1,0 +1,23 @@
+{
+width: 13,
+height:10,
+star1: 1000,
+star2: 2000,
+star3: 3000,
+tables: "n9",
+tileset: "brown", 
+t: 4,
+
+groups:[
+	[
+		{name: "guy", 		count: 2},
+		{name: "girl", 		count: 2},
+		{name: "2girl", 	count: 3},
+		{name: "2guy2girl", count: 3},
+		{name: "3guy", count: 2},
+		{name: "3girl", count: 3},
+		{name: "2guy2girl", count: 3},
+		{name: "office4gray",count: 3},
+		{name: "guygirl", count: 2},
+	]]
+}

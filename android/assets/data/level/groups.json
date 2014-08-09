@@ -1,0 +1,54 @@
+{
+	guy: [
+			{name: "guy"},
+	],
+	girl: [
+			{name: "girl"},
+	],
+	guygirl: [
+			{name: "guy"},
+			{name: "girl"},
+	],
+	"2girl": [
+			{name: "girl"},
+			{name: "girl"},
+	],
+	"2guygirl": [
+			{name: "guy"},
+			{name: "girl"},
+			{name: "guy"}
+	],
+	"2guy2girl": [
+			{name: "guy"},
+			{name: "guy"},
+			{name: "girl"},
+			{name: "girl"},
+	],
+	"3guy": [
+			{name: "guy"},
+			{name: "guy"},
+			{name: "guy"},
+	],
+	"3girl": [
+			{name: "girl"},
+			{name: "girl"},
+			{name: "girl"},
+	],
+	
+	slayers: [
+			{name: "lina"},
+			{name: "zelgadis"},
+	],
+	
+	sailors: [
+			{name: "sailormoon"},
+			{name: "sailormercury"},
+	],
+	
+	office4gray: [
+			{name: "officemangray"},
+			{name: "officemangray"},
+			{name: "officewomangray"},			
+			{name: "officewomangray"},
+	],
+}

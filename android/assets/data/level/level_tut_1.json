@@ -1,0 +1,16 @@
+{
+width: 13,
+height:7,
+star1: 1000,
+star2: 2000,
+star3: 2800,
+tables: "n1",
+tileset: "brown", 
+t: 3,
+
+groups:[
+    [
+        {name: "guy", t:1},
+    ]
+    ]
+}

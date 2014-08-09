@@ -1,0 +1,2416 @@
+
+to_pack1.png
+format: RGBA8888
+filter: Nearest,Linear
+repeat: none
+menu-icon
+  rotate: false
+  xy: 2, 2
+  size: 100, 143
+  orig: 100, 143
+  offset: 0, 0
+  index: -1
+heart3
+  rotate: false
+  xy: 2, 147
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+heart2
+  rotate: false
+  xy: 2, 213
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+heart1
+  rotate: false
+  xy: 2, 279
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+brown-table
+  rotate: false
+  xy: 2, 345
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+heart4
+  rotate: false
+  xy: 2, 411
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+white-table
+  rotate: false
+  xy: 104, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+brown-counterTable
+  rotate: false
+  xy: 170, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+white-counterTable
+  rotate: false
+  xy: 170, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+starGray
+  rotate: false
+  xy: 236, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 302, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+white-window
+  rotate: false
+  xy: 68, 147
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+white-wallEnd
+  rotate: false
+  xy: 68, 213
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+brown-wallStart
+  rotate: false
+  xy: 68, 279
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+brown-wall
+  rotate: false
+  xy: 68, 345
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+white-wallDoor
+  rotate: false
+  xy: 68, 411
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+white-wallStart
+  rotate: false
+  xy: 368, 2
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+brown-wallDoor
+  rotate: false
+  xy: 402, 2
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+brown-wallEnd
+  rotate: false
+  xy: 436, 2
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+brown-window
+  rotate: false
+  xy: 470, 2
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+brown-door1
+  rotate: false
+  xy: 104, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+brown-door2
+  rotate: false
+  xy: 138, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+white-door1
+  rotate: false
+  xy: 172, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+white-wall
+  rotate: false
+  xy: 206, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+white-door2
+  rotate: false
+  xy: 240, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+brown-chairDown
+  rotate: false
+  xy: 274, 68
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+white-chairDown
+  rotate: false
+  xy: 308, 68
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+carte
+  rotate: false
+  xy: 342, 68
+  size: 32, 46
+  orig: 32, 46
+  offset: 0, 0
+  index: -1
+white-pictures
+  rotate: false
+  xy: 376, 68
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+brown-pictures
+  rotate: false
+  xy: 104, 134
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+white-counter2
+  rotate: false
+  xy: 2, 477
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+white-food
+  rotate: false
+  xy: 68, 477
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+white-counter3
+  rotate: false
+  xy: 474, 68
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+white-plate
+  rotate: false
+  xy: 202, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+brown-counter1
+  rotate: false
+  xy: 236, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+day-gray
+  rotate: false
+  xy: 270, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+brown-counter3
+  rotate: false
+  xy: 304, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+brown-teapot
+  rotate: false
+  xy: 338, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+brown-food
+  rotate: false
+  xy: 372, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+brown-plate
+  rotate: false
+  xy: 406, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+brown-machine
+  rotate: false
+  xy: 440, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+white-machine
+  rotate: false
+  xy: 440, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+white-teapot
+  rotate: false
+  xy: 474, 134
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+white-counter1
+  rotate: false
+  xy: 104, 168
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+brown-counter2
+  rotate: false
+  xy: 104, 202
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+plate
+  rotate: false
+  xy: 104, 236
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+heartMeter3
+  rotate: false
+  xy: 36, 477
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+heartMeter2
+  rotate: false
+  xy: 54, 477
+  size: 8, 32
+  orig: 8, 32
+  offset: 0, 0
+  index: -1
+heartMeter1
+  rotate: false
+  xy: 104, 270
+  size: 8, 32
+  orig: 8, 32
+  offset: 0, 0
+  index: -1
+white-chairUp2
+  rotate: false
+  xy: 376, 102
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+brown-chairUp2
+  rotate: false
+  xy: 410, 102
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+brown-chairUp
+  rotate: false
+  xy: 474, 102
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+white-chairUp
+  rotate: false
+  xy: 104, 304
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+white-cup
+  rotate: false
+  xy: 274, 118
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+brown-cup
+  rotate: false
+  xy: 274, 118
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+
+characters1.png
+format: RGBA8888
+filter: Nearest,Linear
+repeat: none
+modernguy0203
+  rotate: false
+  xy: 2, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker11
+  rotate: false
+  xy: 2, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel13
+  rotate: false
+  xy: 2, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords01
+  rotate: false
+  xy: 2, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0233
+  rotate: false
+  xy: 2, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon02
+  rotate: false
+  xy: 2, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon22
+  rotate: false
+  xy: 2, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0221
+  rotate: false
+  xy: 2, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester103
+  rotate: false
+  xy: 2, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan03
+  rotate: false
+  xy: 2, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0321
+  rotate: false
+  xy: 36, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0320
+  rotate: false
+  xy: 70, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury23
+  rotate: false
+  xy: 104, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0202
+  rotate: false
+  xy: 138, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0212
+  rotate: false
+  xy: 172, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester123
+  rotate: false
+  xy: 206, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury21
+  rotate: false
+  xy: 240, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion01
+  rotate: false
+  xy: 274, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion20
+  rotate: false
+  xy: 308, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman103
+  rotate: false
+  xy: 342, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse20
+  rotate: false
+  xy: 376, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion23
+  rotate: false
+  xy: 410, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress21
+  rotate: false
+  xy: 444, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0221
+  rotate: false
+  xy: 478, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress03
+  rotate: false
+  xy: 36, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse12
+  rotate: false
+  xy: 36, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel03
+  rotate: false
+  xy: 36, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse21
+  rotate: false
+  xy: 36, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman233
+  rotate: false
+  xy: 36, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury02
+  rotate: false
+  xy: 36, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury00
+  rotate: false
+  xy: 36, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon23
+  rotate: false
+  xy: 36, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury13
+  rotate: false
+  xy: 36, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman111
+  rotate: false
+  xy: 36, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman121
+  rotate: false
+  xy: 70, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester133
+  rotate: false
+  xy: 104, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman211
+  rotate: false
+  xy: 138, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0330
+  rotate: false
+  xy: 172, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0233
+  rotate: false
+  xy: 206, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0220
+  rotate: false
+  xy: 240, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester101
+  rotate: false
+  xy: 274, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf111
+  rotate: false
+  xy: 308, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel01
+  rotate: false
+  xy: 342, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker22
+  rotate: false
+  xy: 376, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman133
+  rotate: false
+  xy: 410, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester113
+  rotate: false
+  xy: 444, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords32
+  rotate: false
+  xy: 478, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords30
+  rotate: false
+  xy: 478, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0301
+  rotate: false
+  xy: 70, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman113
+  rotate: false
+  xy: 70, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0231
+  rotate: false
+  xy: 70, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury03
+  rotate: false
+  xy: 70, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion22
+  rotate: false
+  xy: 70, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress33
+  rotate: false
+  xy: 70, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman122
+  rotate: false
+  xy: 70, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman120
+  rotate: false
+  xy: 70, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords13
+  rotate: false
+  xy: 70, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0303
+  rotate: false
+  xy: 104, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman131
+  rotate: false
+  xy: 104, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker12
+  rotate: false
+  xy: 104, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker10
+  rotate: false
+  xy: 104, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0211
+  rotate: false
+  xy: 104, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion10
+  rotate: false
+  xy: 104, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon20
+  rotate: false
+  xy: 104, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel32
+  rotate: false
+  xy: 104, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel31
+  rotate: false
+  xy: 104, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury33
+  rotate: false
+  xy: 138, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords33
+  rotate: false
+  xy: 172, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf131
+  rotate: false
+  xy: 206, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress23
+  rotate: false
+  xy: 240, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan23
+  rotate: false
+  xy: 274, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse13
+  rotate: false
+  xy: 308, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0310
+  rotate: false
+  xy: 342, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion03
+  rotate: false
+  xy: 376, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman233
+  rotate: false
+  xy: 410, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress00
+  rotate: false
+  xy: 444, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress02
+  rotate: false
+  xy: 444, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf123
+  rotate: false
+  xy: 478, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman213
+  rotate: false
+  xy: 138, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion11
+  rotate: false
+  xy: 138, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0231
+  rotate: false
+  xy: 138, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester131
+  rotate: false
+  xy: 138, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0201
+  rotate: false
+  xy: 138, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon03
+  rotate: false
+  xy: 138, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse23
+  rotate: false
+  xy: 138, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman131
+  rotate: false
+  xy: 172, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan10
+  rotate: false
+  xy: 206, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0222
+  rotate: false
+  xy: 240, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress01
+  rotate: false
+  xy: 274, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf100
+  rotate: false
+  xy: 308, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan11
+  rotate: false
+  xy: 342, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0223
+  rotate: false
+  xy: 376, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker21
+  rotate: false
+  xy: 410, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion13
+  rotate: false
+  xy: 444, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0223
+  rotate: false
+  xy: 478, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman101
+  rotate: false
+  xy: 172, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon01
+  rotate: false
+  xy: 172, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion21
+  rotate: false
+  xy: 172, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon32
+  rotate: false
+  xy: 172, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman213
+  rotate: false
+  xy: 172, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse31
+  rotate: false
+  xy: 172, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman221
+  rotate: false
+  xy: 206, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman223
+  rotate: false
+  xy: 206, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0203
+  rotate: false
+  xy: 206, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan01
+  rotate: false
+  xy: 206, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester110
+  rotate: false
+  xy: 206, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester112
+  rotate: false
+  xy: 206, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker31
+  rotate: false
+  xy: 206, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman113
+  rotate: false
+  xy: 240, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse01
+  rotate: false
+  xy: 274, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury11
+  rotate: false
+  xy: 308, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse11
+  rotate: false
+  xy: 342, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester130
+  rotate: false
+  xy: 376, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester132
+  rotate: false
+  xy: 376, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon10
+  rotate: false
+  xy: 410, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0232
+  rotate: false
+  xy: 444, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan21
+  rotate: false
+  xy: 478, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0210
+  rotate: false
+  xy: 240, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords23
+  rotate: false
+  xy: 240, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel20
+  rotate: false
+  xy: 240, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel22
+  rotate: false
+  xy: 240, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords11
+  rotate: false
+  xy: 240, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman231
+  rotate: false
+  xy: 240, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman203
+  rotate: false
+  xy: 274, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel21
+  rotate: false
+  xy: 308, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel00
+  rotate: false
+  xy: 342, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan32
+  rotate: false
+  xy: 376, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf120
+  rotate: false
+  xy: 410, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress13
+  rotate: false
+  xy: 444, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0332
+  rotate: false
+  xy: 478, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman130
+  rotate: false
+  xy: 274, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman132
+  rotate: false
+  xy: 274, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker33
+  rotate: false
+  xy: 274, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf101
+  rotate: false
+  xy: 274, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf122
+  rotate: false
+  xy: 274, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0313
+  rotate: false
+  xy: 308, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0230
+  rotate: false
+  xy: 308, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0222
+  rotate: false
+  xy: 308, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion31
+  rotate: false
+  xy: 308, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse03
+  rotate: false
+  xy: 342, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman133
+  rotate: false
+  xy: 376, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0333
+  rotate: false
+  xy: 410, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker01
+  rotate: false
+  xy: 444, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon21
+  rotate: false
+  xy: 478, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon11
+  rotate: false
+  xy: 342, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords12
+  rotate: false
+  xy: 342, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords10
+  rotate: false
+  xy: 342, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman111
+  rotate: false
+  xy: 342, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress31
+  rotate: false
+  xy: 376, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman200
+  rotate: false
+  xy: 410, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman202
+  rotate: false
+  xy: 410, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker13
+  rotate: false
+  xy: 444, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords20
+  rotate: false
+  xy: 478, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords22
+  rotate: false
+  xy: 478, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury20
+  rotate: false
+  xy: 376, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury22
+  rotate: false
+  xy: 376, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan22
+  rotate: false
+  xy: 376, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0322
+  rotate: false
+  xy: 410, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman201
+  rotate: false
+  xy: 410, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker20
+  rotate: false
+  xy: 444, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman230
+  rotate: false
+  xy: 478, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman232
+  rotate: false
+  xy: 478, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan02
+  rotate: false
+  xy: 444, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0311
+  rotate: false
+  xy: 478, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+
+characters2.png
+format: RGBA8888
+filter: Nearest,Linear
+repeat: none
+officeman221
+  rotate: false
+  xy: 2, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse10
+  rotate: false
+  xy: 2, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0312
+  rotate: false
+  xy: 2, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse33
+  rotate: false
+  xy: 2, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester121
+  rotate: false
+  xy: 2, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf103
+  rotate: false
+  xy: 2, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker23
+  rotate: false
+  xy: 2, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf133
+  rotate: false
+  xy: 2, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0200
+  rotate: false
+  xy: 2, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0210
+  rotate: false
+  xy: 2, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse22
+  rotate: false
+  xy: 36, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman130
+  rotate: false
+  xy: 70, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman132
+  rotate: false
+  xy: 70, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0211
+  rotate: false
+  xy: 104, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel11
+  rotate: false
+  xy: 138, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress10
+  rotate: false
+  xy: 172, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress12
+  rotate: false
+  xy: 172, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman231
+  rotate: false
+  xy: 206, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker03
+  rotate: false
+  xy: 240, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0302
+  rotate: false
+  xy: 274, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf112
+  rotate: false
+  xy: 308, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman123
+  rotate: false
+  xy: 342, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan00
+  rotate: false
+  xy: 376, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury01
+  rotate: false
+  xy: 410, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan31
+  rotate: false
+  xy: 444, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan12
+  rotate: false
+  xy: 478, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon12
+  rotate: false
+  xy: 36, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman102
+  rotate: false
+  xy: 36, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman100
+  rotate: false
+  xy: 36, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman220
+  rotate: false
+  xy: 36, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman222
+  rotate: false
+  xy: 36, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords21
+  rotate: false
+  xy: 36, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel33
+  rotate: false
+  xy: 36, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0212
+  rotate: false
+  xy: 36, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan30
+  rotate: false
+  xy: 36, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman203
+  rotate: false
+  xy: 36, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman112
+  rotate: false
+  xy: 36, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman110
+  rotate: false
+  xy: 36, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman101
+  rotate: false
+  xy: 70, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords31
+  rotate: false
+  xy: 104, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf110
+  rotate: false
+  xy: 138, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman232
+  rotate: false
+  xy: 172, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman230
+  rotate: false
+  xy: 172, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman222
+  rotate: false
+  xy: 206, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman220
+  rotate: false
+  xy: 206, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon31
+  rotate: false
+  xy: 240, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0213
+  rotate: false
+  xy: 274, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion30
+  rotate: false
+  xy: 308, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion32
+  rotate: false
+  xy: 308, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse02
+  rotate: false
+  xy: 342, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse00
+  rotate: false
+  xy: 342, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman103
+  rotate: false
+  xy: 376, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf121
+  rotate: false
+  xy: 410, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion12
+  rotate: false
+  xy: 444, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker00
+  rotate: false
+  xy: 478, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker02
+  rotate: false
+  xy: 478, 52
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel30
+  rotate: false
+  xy: 70, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0201
+  rotate: false
+  xy: 70, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0220
+  rotate: false
+  xy: 70, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman102
+  rotate: false
+  xy: 70, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman100
+  rotate: false
+  xy: 70, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress30
+  rotate: false
+  xy: 70, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress32
+  rotate: false
+  xy: 70, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress11
+  rotate: false
+  xy: 70, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0232
+  rotate: false
+  xy: 70, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0230
+  rotate: false
+  xy: 70, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester111
+  rotate: false
+  xy: 70, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords03
+  rotate: false
+  xy: 104, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel23
+  rotate: false
+  xy: 104, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon00
+  rotate: false
+  xy: 104, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse30
+  rotate: false
+  xy: 104, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+linainverse32
+  rotate: false
+  xy: 104, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0323
+  rotate: false
+  xy: 104, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury31
+  rotate: false
+  xy: 104, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon30
+  rotate: false
+  xy: 104, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman201
+  rotate: false
+  xy: 104, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0331
+  rotate: false
+  xy: 138, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman210
+  rotate: false
+  xy: 172, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman212
+  rotate: false
+  xy: 172, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman211
+  rotate: false
+  xy: 206, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman212
+  rotate: false
+  xy: 240, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman210
+  rotate: false
+  xy: 240, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury32
+  rotate: false
+  xy: 274, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury30
+  rotate: false
+  xy: 274, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker30
+  rotate: false
+  xy: 308, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+baker32
+  rotate: false
+  xy: 308, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan20
+  rotate: false
+  xy: 342, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0213
+  rotate: false
+  xy: 376, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury12
+  rotate: false
+  xy: 410, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormercury10
+  rotate: false
+  xy: 410, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel10
+  rotate: false
+  xy: 444, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel12
+  rotate: false
+  xy: 444, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon33
+  rotate: false
+  xy: 478, 102
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman112
+  rotate: false
+  xy: 138, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman110
+  rotate: false
+  xy: 138, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf102
+  rotate: false
+  xy: 138, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman120
+  rotate: false
+  xy: 138, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman122
+  rotate: false
+  xy: 138, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman121
+  rotate: false
+  xy: 138, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sailormoon13
+  rotate: false
+  xy: 138, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan33
+  rotate: false
+  xy: 138, 402
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+tremel02
+  rotate: false
+  xy: 138, 452
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf130
+  rotate: false
+  xy: 172, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf132
+  rotate: false
+  xy: 172, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+steampunkf113
+  rotate: false
+  xy: 206, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman200
+  rotate: false
+  xy: 240, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officewoman202
+  rotate: false
+  xy: 240, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman223
+  rotate: false
+  xy: 274, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+moderngirl0300
+  rotate: false
+  xy: 308, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+roshan13
+  rotate: false
+  xy: 342, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress22
+  rotate: false
+  xy: 376, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+waitress20
+  rotate: false
+  xy: 376, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0202
+  rotate: false
+  xy: 410, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+modernguy0200
+  rotate: false
+  xy: 410, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion33
+  rotate: false
+  xy: 444, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion02
+  rotate: false
+  xy: 478, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+darion00
+  rotate: false
+  xy: 478, 152
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords00
+  rotate: false
+  xy: 172, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+zelgadisgreywords02
+  rotate: false
+  xy: 172, 202
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester122
+  rotate: false
+  xy: 172, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester120
+  rotate: false
+  xy: 172, 252
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester102
+  rotate: false
+  xy: 172, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+sithjester100
+  rotate: false
+  xy: 172, 302
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+officeman123
+  rotate: false
+  xy: 172, 352
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1

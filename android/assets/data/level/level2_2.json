@@ -1,0 +1,28 @@
+{
+id:"2_2",
+width: 16,
+height:10,
+star1: 30,
+star2: 40,
+star3: 50,
+tables: "b",
+plates: 8,
+tileset: "brown",
+t: 3,
+
+groups:[
+	[
+		{name: "guy", t:1, count:2},
+		{name: "girl", t:1},
+	],
+	[
+		{name: "sailors"},
+		{name: "slayers"},
+		{name: "2girl", count: 4},
+		{name: "guygirl", count: 4},
+		{name: "2guygirl", count: 4},
+		{name: "2guy2girl", count: 4},
+		{name: "3guy", count: 4},
+		{name: "3girl", count: 4},
+	]]
+}
