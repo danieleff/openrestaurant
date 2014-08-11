@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="floor" tilewidth="32" tileheight="32">
+  <image source="tileset/floor.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="wall" tilewidth="32" tileheight="32">
+  <image source="tileset/wall.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="321" name="walldecor" tilewidth="32" tileheight="32">
+  <image source="tileset/walldecor.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="577" name="furniture" tilewidth="32" tileheight="32">
+  <image source="tileset/furniture.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="833" name="japanesevillage" tilewidth="32" tileheight="32">
+  <image source="tileset/japanesevillage.png" width="256" height="1312"/>
+ </tileset>
+ <layer name="floor" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwLZGZgCBzFo3gUj+JRPIpH8SgexVTDAJw8xOE=
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzTEOQFAURNGXfEGFChUq7H9RqFChwmxhYoLiT3LbOWbvL/7A/JM7OLORbHLP3RkfC9kqcDd87GSHwD3xcZFZ8NwN8RGRxQI3wUdKlgncHB8FWSlwK3zUZI3AbfHRkfUC961517ve1bg3gvI81A==
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcJDFTwZBRewmCNKC9wSRiaoA8oDnRJOJRMApGwSgYBaNgJAMAtKcKeg==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy1lblOw0AURR2Nv4cSiTIFoCkAiTIFH0MZiaVgKyCkSaCgpGHf9y3s+/IpHEsunNGbjCe2r3Q0V2P7XY/fk6xVEGgYhEg6XkfitVuNq/bVlI5zs+aYqqr21cxPnrVIVYXcvM66QZ1N2ILtAs7SF8r7B2QdwhEcO/obSRvXRsPOvmzJvaDOJVzBtdFfU1JvK6HbS7qn1gM8wpPjO+c5x+/U+oBP+HLUNb/xmnL7SD2Os/vO2Lpy+zEyex250oxlUX8pCAZK7vukGetGM/GzQ2QOp8j1mbFOPVn0fGefGcujJzs8twt7sJ+yhtQT3zon3HMKZ3CeMlfqia3OBH4SpmA6sX+Dv4U7aKXMlXpiqzOLn4N5WEjsP+Nf4BXeMsyxrc4SvgbLUE/sf+N/4Bf+MuTa6jTwTViB1QL+eUXpH+Kobdc=
+  </data>
+ </layer>
+</map>
