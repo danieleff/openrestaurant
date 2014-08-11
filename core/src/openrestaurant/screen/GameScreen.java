@@ -22,7 +22,6 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.InputMultiplexer;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
@@ -37,7 +36,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Scaling;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 
-public class GameScreen implements Screen {
+public class GameScreen extends ScreenWithStages {
 
 	private final Resources r;
 	private Stage stage;
@@ -67,6 +66,9 @@ public class GameScreen implements Screen {
 		stage.getCamera().position.set(stage.getWidth()/2, stage.getHeight()/2, 0);
 
 		ui = new Stage(new FitViewport(480 * Gdx.graphics.getWidth() / Gdx.graphics.getHeight(),480));
+		
+		addStage(stage);
+		addStage(ui);
 		
 		ga = new GameArea();
 		ga.resize(new Rectangle(0, 0, stage.getWidth(), stage.getHeight()), 
@@ -374,6 +376,8 @@ public class GameScreen implements Screen {
 	
 	@Override
 	public void render(float delta) {
+		super.render(delta);
+		
 		currentTime += delta;
 		if (gameTime < currentTime - 1000) {
 			gameTime = currentTime;

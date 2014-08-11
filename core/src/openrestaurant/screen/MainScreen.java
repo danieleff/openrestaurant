@@ -7,30 +7,27 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.InputMultiplexer;
-import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.maps.tiled.TiledMap;
+import com.badlogic.gdx.maps.tiled.TmxMapLoader;
+import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 
-public class MainScreen implements Screen {
+public class MainScreen extends ScreenWithStages {
 
 	private Stage ui;
-	private Resources r;
 	
-	private float height = 480f;
-	private Image image;
+	private Resources r;	
 	
 	public MainScreen(Resources r) {
 		this.r = r;
-		//TODO Credits button
-		//TODO Background
-		//TODO sound
-		
 		createUI();
 	}
 	
@@ -50,22 +47,23 @@ public class MainScreen implements Screen {
 	}
 	@Override
 	public void render(float delta) {
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		Gdx.gl.glClearColor(0.5f, 0.6f, 0.6f, 1);
-		
+		super.render(delta);
+		/*
+		mapRenderer.setView((OrthographicCamera)ui.getViewport().getCamera());
+		mapRenderer.render();
+				*/
 		ui.act(delta);
 		ui.draw();
 	}
 	
 	private void createUI() {
+		clearStages();
 		ui = new Stage(new FitViewport(800, 600));
+		addStage(ui);
 		
-		image = new Image(r.main);
-		/*image.setX(0);
-		image.setY(-340);
-		image.setWidth(512*1.6f);
-		image.setHeight(512*1.6f);*/
-		ui.addActor(image);
+		TmxActor ma = new TmxActor(r);
+		ui.addActor(ma);
+		
 		
 		Table table = new Table(r.skin);
 		table.defaults().spaceBottom(10).padLeft(10).padTop(10);
@@ -76,7 +74,7 @@ public class MainScreen implements Screen {
 		//addLevelList(table, new LevelList("Beta test missions 2", "b2", 1));
 		
 		table.row();		
-		TextButton b = new TextButton("About", r.skin, "large");
+		/*TextButton b = new TextButton("About", r.skin, "large");
 		b.getStyle().font=r.skin.getFont("font_test");
 		table.add(b).fill();
 		
@@ -84,9 +82,9 @@ public class MainScreen implements Screen {
 			
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
-				r.restaurantGame.setScreen(r.aboutScreen);
+				r.restaurantGame.transitTo(r.aboutScreen);
 			}
-		});
+		});*/
 		
 		table.pack();
 		
@@ -94,7 +92,6 @@ public class MainScreen implements Screen {
 		table.setY(ui.getHeight() - table.getHeight());
 		
 		ui.addActor(table);
-		
 				
 	}
 
@@ -106,36 +103,14 @@ public class MainScreen implements Screen {
 		button.addListener(new ClickListener() {
 			public void clicked(InputEvent event, float x, float y) {
 				r.logic.levelList = levelList;
-				r.restaurantGame.setScreen(r.selectLevelScreen);
+				r.click.play();
+				r.restaurantGame.transitTo(r.selectLevelScreen);
 			}
 		});
 	}
 
 	@Override
 	public void resize(int x, int y) {
-		ui.getViewport().update(x, y, true);
+		if (ui!=null) ui.getViewport().update(x, y, true);
 	}
-
-	@Override
-	public void hide() {
-		
-	}
-
-	
-	@Override
-	public void pause() {
-		
-	}
-
-	@Override
-	public void resume() {
-		
-	}
-
-	
-	@Override
-	public void dispose() {
-		
-	}
-
 }

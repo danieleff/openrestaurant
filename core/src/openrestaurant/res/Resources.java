@@ -24,11 +24,12 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.maps.tiled.TiledMap;
+import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.utils.Json;
 import com.badlogic.gdx.utils.JsonReader;
 import com.badlogic.gdx.utils.JsonValue;
-import com.badlogic.gdx.utils.ObjectSet;
 
 public class Resources {
 
@@ -101,18 +102,25 @@ public class Resources {
 	public AtlasRegion teapot;
 	public AtlasRegion cup;
 	public AboutScreen aboutScreen;
+	private TmxMapLoader tmxMapLoader;
+	public TiledMap mainBackground;
+	public Sound click;
 	
 	public static String datadir="data/";
 	
 	public Resources(OpenRestaurantGame restaurantGame) {
 		this.restaurantGame = restaurantGame;
 		
+		click = Gdx.audio.newSound(Gdx.files.internal("sound/switch2.ogg"));
+		
+		tmxMapLoader = new TmxMapLoader();
+		
+		mainBackground = tmxMapLoader.load("main.tmx");
+		
 		logic = new Logic(this);
 		
 		json = new Json();
 		jr = new JsonReader();
-		
-		System.out.println(Gdx.files.internal(datadir+"uiskin.png").exists());
 		
 		//skin = new Skin(Gdx.files.internal(datadir+"uiskin.png"), new TextureAtlas(Gdx.files.internal(datadir+"uiskin.json")));
 		skin = new Skin(Gdx.files.internal("data/uiskin.json"));

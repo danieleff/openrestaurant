@@ -9,23 +9,21 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.InputMultiplexer;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.scenes.scene2d.ui.Window;
 import com.badlogic.gdx.scenes.scene2d.utils.Align;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Scaling;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 
-public class SelectLevelScreen implements Screen {
+public class SelectLevelScreen extends ScreenWithStages {
 
 	private Stage ui;
 
@@ -39,12 +37,17 @@ public class SelectLevelScreen implements Screen {
 
 	public SelectLevelScreen(final Resources r) {
 		this.r = r;
-		
 		//TODO background
-		
 		ui = new Stage(new FitViewport(800, 600));
+		addStage(ui);
+
+		TmxActor ma = new TmxActor(r);
 		
-		Table table = new Table(r.skin);
+		ui.addActor(ma);
+		
+		Window table = new Window("Test", r.skin);
+		table.setMovable(false);
+		table.setResizable(false);
 		
 		table.row().colspan(7);
 		title = new Label("January", r.skin);
@@ -54,7 +57,7 @@ public class SelectLevelScreen implements Screen {
 		
 		String[] days = new String[]{"Mon", "Tue", "Wen", "Thu", "Fri", "Sat", "Sun"};
 		
-		table.row().width(110).height(40).pad(2).padBottom(6);
+		table.row().width(100).height(40).pad(2).padBottom(6);
 		for(int i=0;i<7;i++) {
 			Label label = new Label(days[i], r.skin);
 			label.setText(days[i]);
@@ -64,7 +67,7 @@ public class SelectLevelScreen implements Screen {
 		
 		int day = 1;
 		for(int i=0;i<2;i++) {
-			table.row().width(110).height(120).pad(2);
+			table.row().width(100).height(120).pad(2);
 			for(int j=0;j<7;j++) {
 				Group s = new Group();
 				dayGroups.put(day, s);
@@ -80,7 +83,7 @@ public class SelectLevelScreen implements Screen {
 					@Override
 					public void clicked(InputEvent event, float cx, float cy) {
 						r.logic.loadLevel(r.logic.levelList.prefix, x);
-						r.restaurantGame.setScreen(r.gameScreen);
+						r.restaurantGame.transitTo(r.gameScreen);
 					}
 				});
 				
@@ -128,7 +131,7 @@ public class SelectLevelScreen implements Screen {
 		back.addListener(new ClickListener() {
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
-				r.restaurantGame.setScreen(r.mainScreen);
+				r.restaurantGame.transitTo(r.mainScreen);
 			}
 		});
 		
@@ -187,7 +190,7 @@ public class SelectLevelScreen implements Screen {
 		input.addProcessor(new InputAdapter() {
 			public boolean keyDown(int keycode) {
 				if (keycode==Keys.BACK || keycode==Keys.ESCAPE || keycode==Keys.BACKSPACE) {
-					r.restaurantGame.setScreen(r.mainScreen);
+					r.restaurantGame.transitTo(r.mainScreen);
 					return true;
 				}
 				return super.keyDown(keycode);
@@ -200,8 +203,7 @@ public class SelectLevelScreen implements Screen {
 
 	@Override
 	public void render(float delta) {
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		Gdx.gl.glClearColor(0.7f, 0.8f, 0.9f, 1);
+		super.render(delta);
 		
 		ui.act(delta);
 		ui.draw();

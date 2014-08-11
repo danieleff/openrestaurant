@@ -18,8 +18,6 @@ public class Floor extends Actor {
 	
 	@Override
 	public void draw(Batch spriteBatch, float arg1) {
-		System.out.println(getWidth()+" "+getHeight()+" "+r.logic.tileCountX+" "+r.logic.tileCountY);
-		
 		spriteBatch.draw(r.floor, 
 				0, 0, 
 				(int)getWidth(), (int)getHeight(), 

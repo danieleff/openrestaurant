@@ -6,7 +6,6 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.InputMultiplexer;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
@@ -15,7 +14,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Window;
 import com.badlogic.gdx.scenes.scene2d.utils.Align;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 
-public class AboutScreen implements Screen {
+public class AboutScreen extends ScreenWithStages {
 
 	private float height = 480f;
 	private Stage ui;
@@ -27,14 +26,16 @@ public class AboutScreen implements Screen {
 		
 	}
 	@Override
-	public void show() {		
+	public void show() {
+		clearStages();
 		ui = new Stage(new FitViewport(height*Gdx.graphics.getWidth()/Gdx.graphics.getHeight(), height));
+		addStage(ui);
 		
 		InputMultiplexer input = new InputMultiplexer();
 		input.addProcessor(new InputAdapter() {
 			public boolean keyDown(int keycode) {
 				if (keycode==Keys.BACK || keycode==Keys.ESCAPE || keycode==Keys.BACKSPACE) {
-					r.restaurantGame.setScreen(r.mainScreen);
+					r.restaurantGame.transitTo(r.mainScreen);
 					return true;
 				}
 				return super.keyDown(keycode);
@@ -75,8 +76,7 @@ public class AboutScreen implements Screen {
 
 	@Override
 	public void render(float delta) {
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		Gdx.gl.glClearColor(0.5f, 0.6f, 0.6f, 1);
+		super.render(delta);
 		
 		ui.act(delta);
 		ui.draw();
