@@ -1,10 +1,15 @@
 package openrestaurant.res;
 
+import java.util.Comparator;
+
+import openrestaurant.res.object.Floor;
+
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Group;
-import com.badlogic.gdx.utils.SnapshotArray;
+import com.badlogic.gdx.scenes.scene2d.ui.Widget;
+import com.badlogic.gdx.scenes.scene2d.ui.WidgetGroup;
 
 public class GameArea extends Group {
 	
@@ -38,13 +43,7 @@ public class GameArea extends Group {
 	}
 
 	private void zSort() {
-		SnapshotArray<Actor> c = getChildren();
-		
-		for (Actor actor : c) {
-			actor.setZIndex(Math.max((int) actor.getY()*100, 0));
-		}
-		/*
-		Collections.sort(getChildren(), new Comparator<Actor>() {
+		getChildren().sort(new Comparator<Actor>() {
 			public int compare(Actor o1, Actor o2) {
 				if (o1 instanceof Floor) return -1;
 				if (o2 instanceof Floor) return 1;
@@ -59,7 +58,7 @@ public class GameArea extends Group {
 				if (o2.getY() - o1.getY()>0) return 1;
 				return 0;
 			}
-		});*/
+		});
 	}
 	
 }

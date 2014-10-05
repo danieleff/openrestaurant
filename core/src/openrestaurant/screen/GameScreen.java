@@ -22,7 +22,6 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.InputMultiplexer;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
@@ -376,11 +375,12 @@ public class GameScreen extends ScreenWithStages {
 	
 	@Override
 	public void render(float delta) {
-		super.render(delta);
-		
 		currentTime += delta;
 		if (gameTime < currentTime - 1000) {
 			gameTime = currentTime;
+		}
+		if (gameTime < currentTime) {
+			super.render(delta);
 		}
 		while(gameTime < currentTime) {
 			gameTime+=fixStep;
@@ -392,9 +392,6 @@ public class GameScreen extends ScreenWithStages {
 		r.logic.delta = Math.min(fixStep, 1);
 		r.logic.time += r.logic.delta;
 		
-		Gdx.gl.glClearColor(0.0f, 0.0f, 0.0f, 1);
-        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        
         if (r.logic.state==State.PLAYING) {
         	r.logic.act(fixStep);
         	stage.act(fixStep);
@@ -415,7 +412,8 @@ public class GameScreen extends ScreenWithStages {
 					if (r.logic.state==State.PLAYING) {
 						r.logic.setState(State.PAUSED);
 					} else {
-						r.restaurantGame.setScreen(r.selectLevelScreen);
+						r.restaurantGame.transitTo(r.selectLevelScreen);
+						//r.restaurantGame.setScreen(r.selectLevelScreen);
 					}
 					return true;
 				}

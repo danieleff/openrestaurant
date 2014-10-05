@@ -7,12 +7,6 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.InputMultiplexer;
-import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.g2d.Batch;
-import com.badlogic.gdx.maps.tiled.TiledMap;
-import com.badlogic.gdx.maps.tiled.TmxMapLoader;
-import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
-import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
@@ -71,6 +65,9 @@ public class MainScreen extends ScreenWithStages {
 
 		addLevelList(table, new LevelList("Tutorial", "tut", 1));
 		addLevelList(table, new LevelList("Beta test missions 1", "b1", 10));
+		
+		addLevelList(table, new LevelList("Tiled .tmx test", "tmx", 1));
+		
 		//addLevelList(table, new LevelList("Beta test missions 2", "b2", 1));
 		
 		table.row();		
