@@ -443,6 +443,7 @@ public class GameScreen extends ScreenWithStages {
 	@Override
 	public void resize(int x, int y) {
 		ui.getViewport().update(x, y, true);
+		stage.getViewport().update(x, y, true);
 	}
 
 	@Override
